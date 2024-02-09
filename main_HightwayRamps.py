@@ -143,7 +143,7 @@ flow_params = dict(
 flow_params['env'].horizon = 2500
 
 # Simulation start
-from GRL_Experiment.Exp_HighwayRamps.HR_PPO import Experiment
+from GRL_Experiment.Exp_HighwayRamps.HR_D3QN_GAT import Experiment
 exp = Experiment(flow_params)
 exp.run(num_HVs=NUM_HUMAN, num_AVs=NUM_AVs,
         training=TRAINING, testing=TESTING,
