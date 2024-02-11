@@ -14,8 +14,8 @@ TRAINING = True
 TESTING = False
 
 # Graph configuration
-# Enable_Graph = True
-Enable_Graph = False
+Enable_Graph = True
+#Enable_Graph = False
 
 # DEBUG = True
 DEBUG = False

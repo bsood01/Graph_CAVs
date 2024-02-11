@@ -312,7 +312,7 @@ class DQN(object):
            Used to implement the agent's learning process
         """
         # ------When to return------ #
-        if (self.time_counter <= self.warmup_step) or \
+        if (self.time_counter <= 2 * self.batch_size) or \
                 (self.time_counter % self.update_interval != 0):
             self.time_counter += 1
             return

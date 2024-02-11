@@ -94,6 +94,6 @@ class Experiment:
         # Testing
         test_episodes = 10
         load_dir = 'GRL_TrainedModels/GAT'
-        debug_testing = False
+        debug_testing = True
         if testing:
             Testing_GRLModels(GRL_Net, GRL_DQN, self.env, test_episodes, load_dir, debug_testing)

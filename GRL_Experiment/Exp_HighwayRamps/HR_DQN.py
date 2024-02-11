@@ -86,7 +86,7 @@ class Experiment:
         # Training
         n_episodes = 150
         max_episode_len = 2500
-        save_dir = '../GRL_TrainedModels/DQN5'
+        save_dir = 'GRL_TrainedModels/DQN5'
         debug_training = False
         if training:
             Training_GRLModels(GRL_Net, GRL_DQN, self.env, n_episodes, max_episode_len, save_dir, warmup, debug_training)
